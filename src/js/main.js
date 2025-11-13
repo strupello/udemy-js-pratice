@@ -5,11 +5,11 @@ let result = x + y;
 console.log(result);
 
 let currentYear = 2025;
-let birthYear = 1992;
+let birthYears = 1992;
 
-let age = currentYear - birthYear;
+let ages = currentYear - birthYears;
 
-console.log("Masz " + age + " lat!");
+console.log("Masz " + ages + " lat!");
 
 let price =  120;
 let tax = 0.23;
@@ -23,3 +23,11 @@ let c = 2;
 
 let operationResult = ( a + b ) * c;
 console.log(operationResult);
+
+let age = 33;
+let firstName = 'Irek';
+let lastName = 'Bzyku';
+
+console.log('Nazywam się ' + firstName + lastName + 'i mam ' + age + 'lata.');
+
+const birthYear
