@@ -15,7 +15,7 @@ console.log(calculatedAge);
 //Task 3
 
 //numer
-let price = 99.99;
+let prices = 99.99;
 //string
 let productName = "Keyboard";
 //boolean
@@ -30,13 +30,13 @@ let unknown;
 let a = 20;
 let b = 8;
 
-let sum = a + b;
-let product = a * b;
+let suma = a + b;
+let products = a * b;
 let quotient = a / b;
 let difference = a - b;
 
-console.log('Suma:' + sum);
-console.log('Iloczyn:' + product);
+console.log('Suma:' + suma);
+console.log('Iloczyn:' + products);
 console.log('Iloraz:' + quotient);
 console.log('Różnica:' + difference);
 
@@ -78,3 +78,77 @@ let ages = 33;
 let country = 'Polsce';
 
 console.log('Jestem ' + firstName + ' ' + lastName + ', mam ' + ages + ' lata, pracuję jako ' + job + ' i mieszkam w ' + country + '.');
+
+
+
+let myName = 'Irek';
+const day = 'piątek';
+let mood = 'zmęczony ale otwarty na naukę.'
+
+console.log(`Cześć, jestem ${myName}, dzisaj mamy ${day} i jestem ${mood}`);
+
+let x = 12;
+let y = 7;
+
+let add = x + y;
+let sub = x - y;
+let mul = x * y;
+let div = x / y;
+
+console.log('Wyniki dodawnia to: ' + add);
+console.log('Wyniki odejmowania to: ' + sub);
+console.log('Wyniki mnożenia to: ' + mul);
+console.log('Wyniki dzielenia to: ' + div);
+console.log(add + sub);
+console.log(mul * div);
+
+
+let points = 100;
+
+points = points + 15;
+points = points - 5;
+points = points * 3;
+
+console.log(points);
+
+
+let product = "Monitor";
+let price = 1200;
+
+console.log(product + ' kosztuje ' + price + 'zł.' )
+
+let q = 5;
+let w = 2;
+let e = 2;
+
+result = q * w + e + 10;
+
+console.log(result);
+
+console.log("10" + 5); //string + number da nam fizycznie napisane 105
+console.log(10 + "5"); // tutaj odwrotnie, ale ten sam sens co wyzej, number + string
+console.log(10 + 5);  // zwykle działanie matematyczne
+
+let f = 10;
+let g = 20;
+
+let temp = f;
+
+let food = 'pizza';
+
+console.log(`Moje ulubione jedzie to ${food}.`)
+
+
+let t = 8;
+let r = 4;
+
+let sum = t + r;
+let mix = t  * r + 10;
+let half = t / 2;
+
+console.log(sum);
+console.log(mix);
+console.log(half);
+
+console.log(2 + 2 + "2"); // Tutaj będzie wynik 42 ponieważ mamy dwie liczby plus string, bez spacji
+console.log("2" + 2 + 2); // Tutaj 222, ponieważ pierwszy string laczy sie z pierwsza liczba i dochodzi kolejna liczba, bez moziwlosci dodania do drugiej liczby ?

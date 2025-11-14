@@ -29,5 +29,3 @@ let firstName = 'Irek';
 let lastName = 'Bzyku';
 
 console.log('Nazywam się ' + firstName + lastName + 'i mam ' + age + 'lata.');
-
-const birthYear
