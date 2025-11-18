@@ -51,3 +51,21 @@ function fullName (first, last) {
 }
 const result = fullName("Irek", "Bzyku");
 console.log(result);
+alert(result);
+
+
+function getSuma (a, b) {
+    const result = a + b;
+    return result;
+}
+const suma = getSuma (2, 4);
+console.log(suma);
+alert(suma);
+
+function getMessage (name, age) {
+    return `Mam na imię ${name} i mam ${age} lata.`;
+}
+
+const result0 = getMessage ("Irek", "33");
+console.log(result0);
+alert(result0);
