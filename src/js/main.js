@@ -29,3 +29,11 @@ let firstName = 'Irek';
 let lastName = 'Bzyku';
 
 console.log('Nazywam się ' + firstName + lastName + 'i mam ' + age + 'lata.');
+
+
+  const btn = document.getElementById('click-here');
+
+
+  btn.addEventListener('click', function(buttonClick) {
+    alert('Mój pierwszy klik!');
+  });

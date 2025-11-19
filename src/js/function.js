@@ -69,3 +69,19 @@ function getMessage (name, age) {
 const result0 = getMessage ("Irek", "33");
 console.log(result0);
 alert(result0);
+
+
+function showUser(name, age) {
+    return `Jestem ${name} i mam ${age} lata!`
+}
+const result7 = showUser("Irek", 33);
+console.log(result7);
+alert(result7);
+
+function double(value) {
+  return value * 2;
+}
+function transform(number, fn) {
+  return fn(number);
+}
+console.log( transform(10, double) );
